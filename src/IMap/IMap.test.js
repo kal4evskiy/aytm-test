@@ -22,9 +22,9 @@ test('create a new IMap from the array', () => {
   ]);
 
   expect(map.getStore()).toEqual({
-    this: "that",
-    foo: "bar",
-    fee: "baz"
+    this: 'that',
+    foo: 'bar',
+    fee: 'baz'
   });
 });
 
@@ -182,8 +182,8 @@ test('Check MapStr .toString() conversion', () => {
   ]);
 
   expect(map.getStore()).toEqual({
-    tra: "1",
-    foo: "2",
-    fee: "3"
+    tra: '1',
+    foo: '2',
+    fee: '3'
   });
 });
