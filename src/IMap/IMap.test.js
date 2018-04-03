@@ -1,4 +1,4 @@
-import IMap, { MapStr } from  '../IMap';
+import IMap, { MapStr } from  './';
 
 
 test('create a new IMap from the plain obj', () => {
